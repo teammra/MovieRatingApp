@@ -65,7 +65,7 @@
 				<ul>
 					<li><label for="txt1">Username: </label><input type="text" id="txt1"></li>
 					<li><label for="txt2">Password: </label><input type="password" id="txt2"></li>
-					<li class="btn"><a href="#a">Login</a></li>
+					<li class="btn"><a href="http://localhost:8888/mrr/MovieRatingApp/login.php">Login</a></li>
 					<li class="btn2"><a href="#a">SignUp</a></li>
 				</ul>
 			</fieldset>
