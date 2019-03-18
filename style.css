@@ -1,0 +1,76 @@
+.jumbotron {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: #bbbbbb;
+}
+
+.buttons {
+    width: 50%;
+    margin: auto;
+}
+
+btn1 {
+    float: left;
+}
+
+btn2 {
+    float: right;
+}
+
+.info {
+    margin-top: 50px;
+    clear: both;
+}
+
+.movies {
+    border: 1px solid #000000;
+    width: 50%;
+    margin: auto;
+    height: 200px;
+}
+
+.actors {
+    margin: 20px 0;
+}
+
+.actors li {
+    list-style-type: none;
+}
+
+.actors a {
+    color: black;
+}
+
+.user-reviews {
+    border: 1px solid #000000;
+    width: 20%;
+    margin: auto auto 20px auto;
+}
+
+#user-review {
+    border-top: 1px solid black;
+}
+
+#comment-btn {
+    margin: 20px 0;
+}
+
+.form {
+    width: 30%;
+    margin: auto;
+}
