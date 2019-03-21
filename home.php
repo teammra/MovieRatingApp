@@ -24,7 +24,7 @@
         </div>
         <div class="info">
             <h3>My Movies</h3>
-            <div class="jumbotron movies">
+            <div class="jumbotron scrollbox">
                 <div class="movie">
                     <img class="float-left" src="images/avengers.jpg">
                     <h4 class="float-right">Avengers Infinity War</h4>

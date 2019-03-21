@@ -7,7 +7,7 @@
       rgba(205, 92, 92, 0.45)
     ),
     url(images/movie-collage.jpg);
-    background-size: cover;
+    background-repeat: repeat;
     margin-top: -35px;
     padding-top: 35px;
     font-family: 'Roboto', sans-serif;
@@ -37,6 +37,7 @@ h3 {
     background-color: #B22222;
     width: 70%;
     margin: auto;
+    margin-top: 25px;
     padding: 10px;
     border-radius: 15px 15px 0 0;
     box-shadow: 10px 20px 10px black;
@@ -78,7 +79,7 @@ btn2 {
     clear: both;
 }
 
-.movies {
+.scrollbox {
     width: 70%;
     height: 600px;
     margin: auto;
@@ -146,6 +147,38 @@ btn2 {
 #description {
     width: 55%;
     margin-bottom: 10px;
+}
+
+.actors {
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    background-color: white;
+    box-shadow: 10px 20px 10px black;
+    border-top-left-radius: 0;
+}
+
+.description {
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    background-color: white;
+    box-shadow: 10px 20px 10px black;
+    border-top-left-radius: 0;
+}
+
+#label {
+    width: 100%; 
+    font-size: 30px;
+}
+
+#movie-image-input {
+    color: white;
+    background-color: #B22222;
+}
+
+input {
+    box-shadow: 5px 5px 5px black;
 }
 
 #footer {

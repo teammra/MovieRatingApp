@@ -10,23 +10,24 @@
 	<div class="jumbotron">
 		<h2 id="header">Superbad</h2>
 	</div>
+	<div class="body">
 	<div class="container">
 		<div class="movie-image">
 			<img src="images/superbad.jpg" width="200px" height="200px">
 		</div>
 		<div class="info">
+			<h3>Actors</h3>
 			<div class="actors">
-				<h3>Actors</h3>
 				<li><a id="actor" href="#">Seth Rogen</a></li>
 				<li><a id="actor" href="#">Jonah Hill</a></li>
 			</div>
+			<h3>Description</h3>
 			<div class="description">
-				<h3>Description</h3>
 				<p>This is the description of the movie.</p>
 			</div>
 
 			<h3>Reviews</h3>
-			<div class="user-reviews">
+			<div class="jumbotron scrollbox">
 				<div id="user-review">
 					moviewater1011: 10/10 this movie was hilarious!
 				</div>
@@ -56,6 +57,9 @@
 			<button class="btn btn-dark" id="comment-btn">
 			<a href="#" id="anchor">Add Review</a>
 		</div>
+	</div>
+	<div class="jumbotron" id="footer">
+    </div>
 	</div>
 </body>
 </html>
