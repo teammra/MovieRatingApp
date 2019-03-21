@@ -3,23 +3,7 @@
 <head>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
 	<style>
-		body {
-			font-family: 'Germania One', cursive;
-		}
-		
-		h4 {
-			color: gold;
-		}
-
-		p {
-			color: white;
-		}
-
-		.movie {
-			border-bottom: 1px solid silver;
-		}
 	</style>
 	<title>Movie List</title>
 </head>
@@ -27,11 +11,13 @@
 
 <?php
 ?>
-	<div class="jumbotron" style="background: #E80000;">
-		<h2 id="header">All Movies</h2>
+	<div class="jumbotron">
+		<h2 id="header">Movie Rating App</h2>
 	</div>
+	<div class="body">
 	<div class="container">
-		<div class="movies" style="border: 2px solid silver;">
+		<h3>Movie Lists</h3>
+		<div class="movies">
 			<div class="movie">
 				<img class="float-left" src="images/grudge.jpg">
 				<h4 class="float-right">The Grudge</h4>
@@ -65,6 +51,9 @@
 				<p class="float-right" id="description">Plot: Based on real events that occurred in 2007 dubbed the "Heuksapa Incident", the story follows a turf war that grows between a local gang that runs Garibong-dong in Guro District, Seoul.</p>
 			</div>
 		</div>
+	</div>
+	<div class="jumbotron" id="footer">
+    </div>
 	</div>
 </body>
 </html>

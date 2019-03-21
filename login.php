@@ -2,10 +2,10 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<style>
 		body {
-			font-family: 'Monoton', cursive;
+			font-family: 'Roboto', sans-serif;
 			background: #282828;
 		}
 		.color {
@@ -42,16 +42,15 @@
 		}
 
 		.btn-info {
-			background: orange;
-			border: 2px solid orange;
+			background: #505050;
+			border: 1px solid #505050;
 			width: 360px;
 			font-size: 20px;
-			background: transparent;
 		}
 
 		.btn-info:hover {
 			background: orange;
-			border: 2px solid orange;
+			border: 1px solid orange;
 		}
 
 		p {
@@ -91,7 +90,7 @@
 						<label class="label control-label">Password</label>
 						<input type="password" class="form-control" name="password" placeholder="Enter your password">
 						<a href="#"><div class="btn btn-info">Sign In</div></a>
-						<p class="text-center">FORGET PASSWORD ?</p>
+						<p class="text-center">Forget password ?</p>
 					</div>
 					<div class="col-md-6">
 						<img src="images/movie.jpg">
