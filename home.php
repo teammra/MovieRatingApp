@@ -12,6 +12,7 @@
     <div class="jumbotron">
         <h2 id="header">Movie Rating App</h2>
     </div>
+    <div class="body">
     <div class="container">
         <div class="buttons">
             <button class="btn btn-dark btn1">
@@ -23,7 +24,7 @@
         </div>
         <div class="info">
             <h3>My Movies</h3>
-            <div class="movies">
+            <div class="jumbotron movies">
                 <div class="movie">
                     <img class="float-left" src="images/avengers.jpg">
                     <h4 class="float-right">Avengers Infinity War</h4>
@@ -50,6 +51,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="jumbotron" id="footer">
+    </div>
     </div>
 </body>
 </html>
