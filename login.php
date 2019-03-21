@@ -1,68 +1,105 @@
+<!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 	<style>
+		body {
+			font-family: 'Monoton', cursive;
+			background: #282828;
+		}
+		.color {
+			background: #A9A9A9;
+		}
+
 		ul {
-			position: relative;
-			width: 380px;
+			margin-bottom: 50px;
 		}
 
-		.btn {
-			position: absolute;
-			right: 0;
-			top: 0;
+		ul a {
+			color: white;
+			font-size: 29px;
 		}
 
-		.login li {
-			padding: 0 0 9px;
-		}
-
-		.login ul li label {
-			display: inline-block;
-			width: 100px;
-			font-size: 18px;
-			font-weight: bold;
-		}
-		
-		.login ul li input {
-			width: 150px;
-			height: 28px;
-		}
-
-		.login ul li a {
-			display: block;
-			width: 111px;
-			height: 70px;
-			background: grey;
-			font-size: 17px;
-			color: #fff;
-			text-align: center;
-			line-height: 70px;
-			font-weight: bold;
+		ul a:hover {
+			color:black;
 			text-decoration: none;
-			border: 1px solid black;
 		}
 
-		li {
-			list-style-type: none;
+		.label {
+			font-size: 19px;
+			color: white;
+			font-weight: normal;
+		}
+
+		.form-control {
+			background: transparent;
+			border: 0px;
+			border-bottom: 1px solid orange;
+			font-size: 15px;
+			margin-bottom: 30px;
+			padding: 20px;
+		}
+
+		.btn-info {
+			background: orange;
+			border: 2px solid orange;
+			width: 360px;
+			font-size: 20px;
+			background: transparent;
+		}
+
+		.btn-info:hover {
+			background: orange;
+			border: 2px solid orange;
+		}
+
+		p {
+			font-size: 13px;
+			margin-top: 25px;
+			color: white;
+		}
+
+		img {
+			width: 365px;
+			height: 477px;
+		}
+
+		span {
+			color: white;
+			font-size:29px;
 		}
 	</style>
 	<title>Login</title>
 </head>
 <body>
 <?php
-	print "<h2>Login Page</h2><br />";
 ?>
-	<div class="login">
-		<form action="" method="post">
-			<fieldset>
-				<legend>Movie Rating App</legend>
-				<ul>
-					<li><label for="txt1">Username: </label><input type="text" id="txt1"></li>
-					<li><label for="txt2">Password: </label><input type="password" id="txt2"></li>
-					<li class="btn"><a href="#a">Login</a></li>
-				</ul>
-			</fieldset>
-		</form>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="row color" style="margin-top: 120px; box-shadow: -1px 1px 50px 10px black;">
+					<div class="col-md-6">
+						<ul>
+							<a href="login.php" style="border-bottom: 2px solid orange; padding: 10px;">Log In </a> 
+							<span>/</span> 
+							<a href="signin.php"> Sign Up</a> 
+						</ul>
+						<label class="label control-label">Username</label>
+						<input type="text" class="form-control" name="user" placeholder="Enter your username">
+						<label class="label control-label">Password</label>
+						<input type="password" class="form-control" name="password" placeholder="Enter your password">
+						<a href="#"><div class="btn btn-info">Sign In</div></a>
+						<p class="text-center">FORGET PASSWORD ?</p>
+					</div>
+					<div class="col-md-6">
+						<img src="images/movie.jpg">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
 	</div>
 </body>
 </html>
