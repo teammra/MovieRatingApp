@@ -8,11 +8,11 @@
 <?php
 ?>
 	<div class="jumbotron">
-		<h2 id="header">Movie Title</h2>
+		<h2 id="header">Superbad</h2>
 	</div>
 	<div class="container">
 		<div class="movie-image">
-			<img src="" width="200px" height="200px">
+			<img src="images/superbad.jpg" width="200px" height="200px">
 		</div>
 		<div class="info">
 			<div class="actors">
@@ -25,13 +25,13 @@
 				<p>This is the description of the movie.</p>
 			</div>
 
+			<h3>Reviews</h3>
 			<div class="user-reviews">
-				<h3>Reviews</h3>
 				<div id="user-review">
-					User 1: 10/10
+					moviewater1011: 10/10 this movie was hilarious!
 				</div>
 				<div id="user-review">
-					User 2: 10/10
+					avengersguy223: 10/10 i watch this every day.
 				</div>
 				<div id="user-review">
 					User 3: 10/10
@@ -42,10 +42,19 @@
 				<div id="user-review">
 					User 5: 10/10
 				</div>
-				<button class="btn btn-dark" id="comment-btn">
-				<a href="#" id="anchor">Add Review</a>
+				<div id="user-review">
+					User 6: 10/10
+				</div>
+				<div id="user-review">
+					User 7: 10/10
+				</div>
+				<div id="user-review">
+					User 8: 10/10
+				</div>
 				</button>
 			</div>
+			<button class="btn btn-dark" id="comment-btn">
+			<a href="#" id="anchor">Add Review</a>
 		</div>
 	</div>
 </body>

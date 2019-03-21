@@ -13,6 +13,8 @@
 		<h2 id="header">Post a Movie</h2>
 	</div>
 	<form class="form">
+		<label for="file-image">Upload Picture:</label><br>
+		<input type="file" id="movie-image-input"><br><br>
 	<div class="form-group">
 		<label for="movie-title">Title</label>
 		<input type="text" class="form-control" id="movie-title-input" placeholder="Enter title">
