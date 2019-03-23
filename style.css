@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body {
+    background: 
+    linear-gradient(
+      rgba(180, 92, 92, 0.45), 
+      rgba(180, 92, 92, 0.45)
+    ),
+    url(images/movie-collage.jpg);
+    background-repeat: repeat;
+    margin-top: -35px;
+    padding-top: 35px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #B22222;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+    background-color: #B22222;
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 10px 20px 10px black;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: #bbbbbb;
+}
+
+.buttons {
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    background-color: #B22222;
+    border-color: white;
+}
+
+btn1 {
+    float: left;
+}
+
+btn2 {
+    float: right;
+}
+
+.info {
+    margin-top: 50px;
+    clear: both;
+}
+
+.scrollbox {
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    margin-top: 0;
+    overflow: scroll;
+    background-color: white;
+    box-shadow: 10px 20px 10px black;
+    border-top-left-radius: 0;
+}
+
+.actors {
+    margin: 20px 0;
+}
+
+.actors li {
+    list-style-type: none;
+}
+
+.actors a {
+    color: black;
+}
+
+.user-reviews {
+    height: 200px;
+    overflow: scroll;
+    width: 40%;
+    margin: auto auto 20px auto;
+}
+
+#user-review {
+    border-top: 1px solid black;
+    text-align: left;
+}
+
+#comment-btn {
+    margin: 20px 0;
+}
+
+.form {
+    width: 30%;
+    margin: auto;
+}
+
+.movie {
+    clear: both;
+    border-bottom: 1px solid #000000;
+}
+
+.movie h4, .movie p {
+    text-align: right;
+    margin: 10 10 0 0;
+}
+
+.movie img {
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin: 10 0 10 10;
+}
+
+#director {
+    clear: right;
+}
+
+#description {
+    width: 55%;
+    margin-bottom: 10px;
+}
+
+.actors {
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    background-color: white;
+    box-shadow: 10px 20px 10px black;
+    border-top-left-radius: 0;
+}
+
+.description {
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    background-color: white;
+    box-shadow: 10px 20px 10px black;
+    border-top-left-radius: 0;
+}
+
+#label {
+    width: 100%; 
+    font-size: 30px;
+}
+
+#movie-image-input {
+    color: white;
+    background-color: #B22222;
+}
+
+input {
+    box-shadow: 5px 5px 5px black;
+}
+
+#footer {
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.movie-image img {
+    box-shadow: 10px 10px 10px white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar {
+    margin-bottom: -10px;
+}
