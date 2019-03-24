@@ -93,7 +93,7 @@
 						<p class="text-center">Forget password ?</p>
 					</div>
 					<div class="col-md-6">
-						<img src="images/movie.jpg">
+						<img src="images/movie.jpeg">
 					</div>
 				</div>
 			</div>
