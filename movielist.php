@@ -1,9 +1,167 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<style>
+		body {
+			font-family: 'Roboto', sans-serif;
+			background: #282828;
+		}
+		
+		.body {
+			background: 
+			linear-gradient(
+			rgba(205, 92, 92, 0.45), 
+			rgba(205, 92, 92, 0.45)
+			),
+			url(images/movie-collage.jpg);
+			background-size: cover;
+			margin-top: -35px;
+			padding-top: 35px;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.jumbotron {
+			text-align: center;
+			background-color: #B22222;
+		}
+
+		.container {
+			text-align: center;
+		}
+
+		h2 {
+			color: white;
+			font-family: 'Roboto', sans-serif;
+			font-size: 50px;
+			font-weight: bold;
+		}
+
+		h3 {
+			color: white;
+			font-size: 40px;
+			font-weight: bold;
+			text-shadow: 5px 5px 5px black;
+			background-color: #B22222;
+			width: 70%;
+			margin: auto;
+			padding: 10px;
+			border-radius: 15px 15px 0 0;
+			box-shadow: 10px 20px 10px black;
+		}
+
+		a {
+			color: white;
+		}
+
+		a:hover {
+			text-decoration: none;
+			color: white;
+		}
+
+		.btn-dark:hover {
+			background-color: #bbbbbb;
+		}
+
+		.buttons {
+			width: 50%;
+			margin: auto;
+		}
+
+		.btn {
+			background-color: #B22222;
+			border-color: white;
+		}
+
+		btn1 {
+			float: left;
+		}
+
+		btn2 {
+			float: right;
+		}
+
+		.info {
+			margin-top: 50px;
+			clear: both;
+		}
+
+		.movies {
+			border: 1px solid #000000;
+			width: 70%;
+			height: 600px;
+			margin: auto;
+			background-color: white;
+			overflow: scroll;
+			box-shadow: 10px 20px 10px black;
+			border-top-left-radius: 0;
+		}
+
+		.actors {
+			margin: 20px 0;
+		}
+
+		.actors li {
+			list-style-type: none;
+		}
+
+		.actors a {
+			color: black;
+		}
+
+		.user-reviews {
+			height: 200px;
+			overflow: scroll;
+			width: 40%;
+			margin: auto auto 20px auto;
+		}
+
+		#user-review {
+			border-top: 1px solid black;
+			text-align: left;
+		}
+
+		#comment-btn {
+			margin: 20px 0;
+		}
+
+		.form {
+			width: 30%;
+			margin: auto;
+		}
+
+		.movie {
+			clear: both;
+			border-bottom: 1px solid #000000;
+		}
+
+		.movie h4, .movie p {
+			text-align: right;
+			margin: 10px;
+		}
+
+		.movie img {
+			width: 200px;
+			height: 300px;
+			float: left;
+			margin: 10px;
+		}
+
+		#director {
+			clear: right;
+		}
+
+		#description {
+			width: 55%;
+			margin-bottom: 10px;
+		}
+
+		#footer {
+			height: 200px;
+			margin-top: 50px;
+			margin-bottom: 0;
+		}
 	</style>
 	<title>Movie List</title>
 </head>
