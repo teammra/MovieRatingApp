@@ -193,7 +193,7 @@
 				<p class="float-right" id="description">Plot: Soon after moving into a suburban tract home, Katie (Katie Featherston) and Micah (Micah Sloat) become increasingly disturbed by what appears to be a supernatural presence.</p>
 			</div>
 			<div class="movie">
-				<img class="float-left" src="images/tazza.jpg">
+				<img class="float-left" src="images/tazza.jpeg">
 				<h4 class="float-right">Tazza: The Hidden Card</h4>
 				<p class="float-right" id="director">Director: Kang Hyeong-cheol</p>
 				<p class="float-right" id="description">Genre: Drama/Crime</p>
