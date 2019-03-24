@@ -1,99 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<style>
-		body {
-			font-family: 'Roboto', sans-serif;
-			background: #282828;
-		}
-		.color {
-			background: #A9A9A9;
-		}
-
-		ul {
-			margin-bottom: 50px;
-		}
-
-		ul a {
-			color: white;
-			font-size: 29px;
-		}
-
-		ul a:hover {
-			color:black;
-			text-decoration: none;
-		}
-
-		.label {
-			font-size: 19px;
-			color: white;
-			font-weight: normal;
-		}
-
-		.form-control {
-			background: transparent;
-			border: 0px;
-			border-bottom: 1px solid orange;
-			font-size: 15px;
-			margin-bottom: 30px;
-			padding: 20px;
-		}
-
-		.btn-info {
-			background: #505050;
-			border: 1px solid #505050;
-			width: 360px;
-			font-size: 20px;
-		}
-
-		.btn-info:hover {
-			background: orange;
-			border: 1px solid orange;
-		}
-
-		p {
-			font-size: 13px;
-			margin-top: 25px;
-			color: white;
-		}
-
-		img {
-			width: 365px;
-			height: 477px;
-		}
-
-		span {
-			color: white;
-			font-size:29px;
-		}
-	</style>
+	<meta charset="utf-8">	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 	<title>Login</title>
 </head>
-<body>
+<body style="background: #282828;">
 <?php
 ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8">
-				<div class="row color" style="margin-top: 120px; box-shadow: -1px 1px 50px 10px black;">
+				<div class="row color login-row">
 					<div class="col-md-6">
-						<ul>
-							<a href="login.php" style="border-bottom: 2px solid orange; padding: 10px;">Log In </a> 
-							<span>/</span> 
-							<a href="signin.php"> Sign Up</a> 
+						<ul id="login-signup-links">
+							<a href="login.php" class="active-in">Log In </a>
+							<span> | </span>
+							<a href="signup.php"> Sign Up</a> 
 						</ul>
 						<label class="label control-label">Username</label>
 						<input type="text" class="form-control" name="user" placeholder="Enter your username">
 						<label class="label control-label">Password</label>
 						<input type="password" class="form-control" name="password" placeholder="Enter your password">
-						<a href="#"><div class="btn btn-info">Sign In</div></a>
-						<p class="text-center">Forget password ?</p>
+						<a href="home.php"><div class="btn btn-dark btn-login">Log In</div></a>
+						<a href="#"><p id="password-text" class="text-center">Forgot password?</p></a>
 					</div>
 					<div class="col-md-6">
-						<img src="images/movie.jpeg">
+						<img id="login-page-img" src="images/endgame.jpg">
 					</div>
 				</div>
 			</div>
